@@ -10,3 +10,6 @@
 [submodule "lib/openzeppelin-contracts"]
 	path = lib/openzeppelin-contracts
 	url = https://github.com/openzeppelin/openzeppelin-contracts
+[submodule "lib/inflate-sol"]
+	path = lib/inflate-sol
+	url = https://github.com/adlerjohn/inflate-sol
