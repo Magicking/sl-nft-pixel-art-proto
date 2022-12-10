@@ -15,4 +15,11 @@ contract ContractTest is Test {
         console2.log(c.tokenURI(0));
         assertTrue(true);
     }
+
+    function testBMPImage() public {
+        vm.startPrank(address(0xB0B));
+        Contract c = new Contract();
+        console2.log(c.tokenURI(0));
+        assertTrue(true);
+    }
 }
