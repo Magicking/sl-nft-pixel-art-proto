@@ -12,6 +12,7 @@ remappings = [
   "solidity-bytes-utils/=lib/solidity-bytes-utils/contracts"
 ]
 verbosity = 1
+fs_permissions = [{ access = "read-write", path = "./"}]
 
 # Extreme Fuzzing CI Profile :P
 [profile.ci]
